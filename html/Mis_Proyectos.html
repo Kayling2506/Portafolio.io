@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Portafolio" content="Proyectos, Curriculum, Experiencia, Informatia, Desarrolo Web, Administracion, Gestion">
+    <link rel="shortcut icon" href="/Logo.ico" type="Logo_Pertafolio">
+    <script id="continer_Script_Menu" type="module" src="/js/continer.js"></script>
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/input.css">
+    <title>Portafolio</title>
+</head>
+<header class="bg-gray-100">
+    <!-- Opciones del menú -->
+    <div class="bg-black"> <!--Apartado de Ménu para pc-->
+        <div class="flex items-center justify-between p-4 max-w-6xl mx-auto">
+            <img src="/img/Logo_Img.png" alt="Logo" class="h-10"> <!-- Ajusta la altura de la imagen -->
+            <div class="hidden md:flex space-x-15 mx-auto">
+                <a href="/index.html" class="text-white hover:bg-green-500 px-4 py-2 rounded transition duration-300">Inicio</a>
+                <a href="/html/Mis_Proyectos.html" class="text-white hover:bg-green-500 px-4 py-2 rounded transition duration-300">Mis Proyectos</a>
+                <a href="/html/Mis_Redes_Sociales.html" class="text-white hover:bg-green-500 px-4 py-2 rounded transition duration-300">Redes Sociales</a>
+                <a href="#contact" class="text-white hover:bg-green-500 px-4 py-2 rounded transition duration-300"></a>
+            </div>
+            <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+                ☰
+            </button>
+        </div>
+    </div>
+    
+    <!-- Menú Responsivo - Menu en para movil -->
+    <div id="mobile-menu" class="hidden bg-black md:hidden">
+        <nav class="flex flex-col items-center space-y-4 p-4">
+            <a href="index.html" class="nav-link text-white hover:bg-green-900 px-4 py-2 rounded transition duration-300">Inicio</a>
+            <a href="/html/Mis_Proyectos.html" class="nav-link text-white hover:bg-green-500 px-4 py-2 rounded transition duration-300">Mis Proyectos</a>
+            <a href="/html/Mis_Redes_Sociales.html" class="nav-link text-white hover:bg-green-500 px-4 py-2 rounded transition duration-300">Redes Sociales</a>
+            <a href="#contact" class="nav-link text-white hover:bg-green-500 px-4 py-2 rounded transition duration-300"></a>
+        </nav>
+    </div>
+</header>
+<body>
+    <section>
+        <div class="p-6 bg-gray-100">
+            <h2 class="text-3xl font-bold text-center mb-6">Mis Proyectos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:translate-x-4 animate-slide-right">
+                    <img src="ruta/a/tu-imagen1.jpg" alt="Proyecto 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Proyecto 1</h3>
+                        <p class="text-gray-700">Descripción breve del proyecto 1.</p>
+                        <a href="#" class="mt-2 inline-block text-blue-500 hover:underline">Ver más</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:translate-x-4 animate-slide-right">
+                    <img src="ruta/a/tu-imagen2.jpg" alt="Proyecto 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Proyecto 2</h3>
+                        <p class="text-gray-700">Descripción breve del proyecto 2.</p>
+                        <a href="#" class="mt-2 inline-block text-blue-500 hover:underline">Ver más</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:translate-x-4 animate-slide-right">
+                    <img src="ruta/a/tu-imagen3.jpg" alt="Proyecto 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Proyecto 3</h3>
+                        <p class="text-gray-700">Descripción breve del proyecto 3.</p>
+                        <a href="#" class="mt-2 inline-block text-blue-500 hover:underline">Ver más</a>
+                    </div>
+                </div>
+                <!-- Agrega más proyectos según sea necesario -->
+            </div>
+        </div>
+    </section>
+</body>
+</html>

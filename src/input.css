@@ -28,7 +28,57 @@
     }
 }
 
+/*Animación de Agitación de imagen de perfil*/
 .animate-slide-right {
-    animation: slide-right 0.5s ease-out forwards;
+    animation: slide-right 0.8s ease-out forwards;
 }
 
+@keyframes meow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/*Animación de Agitación de imagen de perfil-Segundos*/
+.animate-meow {
+    animation: meow 2s ease-in-out infinite;
+}
+
+
+
+.social-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 50px;
+}
+
+.social-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.social-card:hover {
+    transform: scale(1.05);
+}
+
+.social-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 20px;
+}
+
+.social-link i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.social-link span {
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -44,7 +44,7 @@
 }
 
 
-
+/*Animación de recuadro de redes sociales*/
 .social-section {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

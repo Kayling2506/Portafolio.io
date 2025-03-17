@@ -44,7 +44,11 @@
 }
 
 
+<<<<<<< Updated upstream
 /*Animación de recuadro de redes sociales*/
+=======
+/*Diseño del apartado de redes sociales*/
+>>>>>>> Stashed changes
 .social-section {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -82,3 +86,5 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+/*Ao

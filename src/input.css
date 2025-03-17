@@ -44,16 +44,12 @@
 }
 
 
-<<<<<<< Updated upstream
 /*Animación de recuadro de redes sociales*/
-=======
-/*Diseño del apartado de redes sociales*/
->>>>>>> Stashed changes
 .social-section {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+    gap: 10px;
+    padding: 30px;
 }
 
 .social-card {
@@ -65,7 +61,7 @@
 }
 
 .social-card:hover {
-    transform: scale(1.05);
+    transform: scale(0.7);
 }
 
 .social-link {
@@ -87,4 +83,66 @@
     font-weight: bold;
 }
 
-/*Ao
+/*Video central */
+.video-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 80vh; /* Altura completa de la ventana */
+}
+iframe {
+    width: 80%; /* Ancho del video */
+    height: 450px; /* Altura del video */
+}
+
+/*Aparado de Diseño de correo.*/
+.container {  /* Diseño del contenedor */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #0000001a;
+    width: 800px;
+}
+h2 {
+    text-align: center;
+    color: #00b52a;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #22d136;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #06c319;
+}
+
+correos{
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
